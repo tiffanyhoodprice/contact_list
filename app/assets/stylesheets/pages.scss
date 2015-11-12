@@ -1,0 +1,31 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background: orange;
+}
+
+.header {
+  background: yellow;
+}
+
+.first_name{
+  color: blue;
+  background: white;
+}
+
+.last_name{
+  color: white;
+  background: blue;
+}
+
+.email{ color: black;
+background: gray;}
+
+.phone{ color: gray;
+background: black;}
+
+.carousel{
+  width:640px;
+       height:360px; margin: auto;}
