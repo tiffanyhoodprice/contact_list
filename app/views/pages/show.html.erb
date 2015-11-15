@@ -1,0 +1,18 @@
+<h1>Contacts</h1>
+
+<p>First Name: <%= @contact.first_name %></p>
+    <p>Last Name: <%= @contact.last_name %></p>
+    <p>Email: <%= @contact.email %></p>
+    <p>Phone Number: <%= @contact.phone_number %></p>
+    <p>Phone (Japan): <%= @contact.japanese_phone_prefix %> </p>
+  
+<p>Contact last updated: <%= @contact.friendly_updated_at %></p>
+
+<%= link_to "Delete", "/contacts/#{@contact.id}", method: :delete %><br>
+<%= link_to "Edit", "/contacts/#{@contact.id}/edit" %><br>
+
+<%= link_to "HOME", "/contacts" %>
+
+
+
+
