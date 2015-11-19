@@ -14,17 +14,17 @@
 ActiveRecord::Schema.define(version: 20151118034535) do
 
   create_table "contacts", force: :cascade do |t|
-    t.string   "first_name"
-    t.string   "last_name"
-    t.string   "email"
-    t.string   "phone_number"
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
-    t.text     "middle_name"
-    t.text     "bio"
-    t.text     "address"
-    t.float    "latitude"
-    t.float    "longitude"
+    t.string   "first_name",   limit: 255
+    t.string   "last_name",    limit: 255
+    t.string   "email",        limit: 255
+    t.string   "phone_number", limit: 255
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
+    t.text     "middle_name",  limit: 65535
+    t.text     "bio",          limit: 65535
+    t.text     "address",      limit: 65535
+    t.float    "latitude",     limit: 24
+    t.float    "longitude",    limit: 24
   end
 
 end
