@@ -15,4 +15,6 @@ class Contact < ActiveRecord::Base
   def japanese_phone_prefix
     "+81 #{phone_number}"
   end
+
+  
 end

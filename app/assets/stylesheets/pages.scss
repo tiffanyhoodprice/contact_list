@@ -3,9 +3,15 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-  background: orange;
+  background: white;
 }
 
+.product-box {
+  background: lightblue;
+  border-radius: 10px;
+  height: 250px;
+  margin: 5px;
+}
 .header {
   background: yellow;
 }
